@@ -45,12 +45,19 @@
 
 body {
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeueBold.eot');
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+        url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BebasNeueBold.woff2') format('woff2'),
+        url('fonts/BebasNeueBold.woff') format('woff'),
+        url('fonts/BebasNeueBold.ttf') format('truetype');
+    font-style: normal;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #171717;
+    background-color: #000000;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -81,7 +88,14 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Barlow", sans-serif;
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeueLight.eot');
+    src: local('Bebas Neue Light'), local('BebasNeueLight'),
+        url('fonts/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BebasNeueLight.woff2') format('woff2'),
+        url('fonts/BebasNeueLight.woff') format('woff'),
+        url('fonts/BebasNeueLight.ttf') format('truetype');
+    font-style: normal;
     font-weight: 700;
     line-height: 1.2;
     color: #ffffff
@@ -485,7 +499,7 @@ progress {
 
 .lead {
     font-size: 1.25rem;
-    font-weight: 300
+    font-weight: 600
 }
 
 .display-1 {
@@ -2232,7 +2246,7 @@ progress {
     width: 100%;
     padding: .375rem .75rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     color: #596277;
     background-color: #fff;
@@ -2423,7 +2437,7 @@ textarea.form-control-lg {
     width: 100%;
     padding: .375rem 2.25rem .375rem .75rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     color: #596277;
     background-color: #fff;
@@ -2783,7 +2797,7 @@ textarea.form-control-lg {
     align-items: center;
     padding: .375rem .75rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     color: #596277;
     text-align: center;
@@ -3042,7 +3056,7 @@ textarea.form-control.is-invalid {
 
 .btn {
     display: inline-block;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     color: #596277;
     text-align: center;
@@ -3767,7 +3781,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link {
-    font-weight: 400;
+    font-weight: 600;
     color: #D81324;
     text-decoration: none
 }
@@ -4126,7 +4140,7 @@ fieldset:disabled .btn {
     width: 100%;
     padding: .25rem 1rem;
     clear: both;
-    font-weight: 400;
+    font-weight: 600;
     color: #212529;
     text-align: inherit;
     white-space: nowrap;
@@ -6279,9 +6293,15 @@ fieldset:disabled .btn {
     z-index: 1080;
     display: block;
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeueLight.eot');
+    src: local('Bebas Neue Light'), local('BebasNeueLight'),
+        url('fonts/BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BebasNeueLight.woff2') format('woff2'),
+        url('fonts/BebasNeueLight.woff') format('woff'),
+        url('fonts/BebasNeueLight.ttf') format('truetype');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     text-align: left;
     text-align: start;
@@ -6406,9 +6426,15 @@ fieldset:disabled .btn {
     z-index: 1070;
     display: block;
     max-width: 276px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeueBold.eot');
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+        url('fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BebasNeueBold.woff2') format('woff2'),
+        url('fonts/BebasNeueBold.woff') format('woff'),
+        url('fonts/BebasNeueBold.ttf') format('truetype');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     text-align: left;
     text-align: start;
@@ -8233,7 +8259,7 @@ fieldset:disabled .btn {
 }
 
 .fw-light {
-    font-weight: 300 !important
+    font-weight: 500 !important
 }
 
 .fw-lighter {
